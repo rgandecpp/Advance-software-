@@ -12,8 +12,8 @@ public class Driver {
         // Create customers with different diet plans
         Customer customer1 = new Customer("Akshith", "No Restriction");
         Customer customer2 = new Customer("Lahari", "Paleo");
-        Customer customer3 = new Customer("Praneeta", "Vegan");
-        Customer customer4 = new Customer("Deepika", "Nut Allergy");
+        Customer customer3 = new Customer("snehi", "Vegan");
+        Customer customer4 = new Customer("chandu", "Nut Allergy");
         Customer customer5 = new Customer("Gokul", "Vegan");
         Customer customer6 = new Customer("Ahlad", "Paleo");
 

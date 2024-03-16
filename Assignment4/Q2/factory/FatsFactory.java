@@ -42,6 +42,7 @@ public class FatsFactory implements MacronutrientFactory{
             // Vegan diet plan doesn't allow any dairy products, including Sour cream
             allowedFatsCopy = new ArrayList<>(allowedFats);
             allowedFatsCopy.remove("Sour cream");
+            allowedFatsCopy.remove("Tuna");
             Random random = new Random();
             String fat = allowedFatsCopy.get(random.nextInt(allowedFatsCopy.size()));
             return new Fats(fat);

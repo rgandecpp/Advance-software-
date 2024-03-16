@@ -36,7 +36,6 @@ public class ProteinFactory implements MacronutrientFactory{
             allowedProteinsCopy = new ArrayList<>(allowedProteins);
             allowedProteinsCopy.remove("Fish");
             allowedProteinsCopy.remove("Chicken");
-            allowedProteinsCopy.remove("Beef");
             Random random = new Random();
             String protein = allowedProteinsCopy.get(random.nextInt(allowedProteinsCopy.size()));
             return new Protein(protein);
@@ -50,8 +49,6 @@ public class ProteinFactory implements MacronutrientFactory{
         } else if (customer.getDietPlan().equalsIgnoreCase("Nut Allergy")) {
             // Nut Allergy diet plan excludes nuts
             allowedProteinsCopy = new ArrayList<>(allowedProteins);
-            allowedProteinsCopy.remove("Tofu");
-            allowedProteinsCopy.remove("Peanuts");
             Random random = new Random();
             String protein = allowedProteinsCopy.get(random.nextInt(allowedProteinsCopy.size()));
             return new Protein(protein);

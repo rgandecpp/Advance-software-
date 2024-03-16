@@ -14,7 +14,7 @@ public class Driver {
         Customer customer2 = new Customer("Lahari", "Paleo");
         Customer customer3 = new Customer("Praneeta", "Vegan");
         Customer customer4 = new Customer("Deepika", "Nut Allergy");
-        Customer customer5 = new Customer("Gokul", "No Restriction");
+        Customer customer5 = new Customer("Gokul", "Vegan");
         Customer customer6 = new Customer("Ahlad", "Paleo");
 
         // Generate meals for each customer
